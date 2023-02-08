@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render <country /> correctly 1`] = `
+<li
+  className="country"
+>
+  <svg
+    className="forward"
+    fill="none"
+    height="1em"
+    onClick={[Function]}
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth="2"
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    viewBox="0 0 24 24"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <desc />
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+      stroke="none"
+    />
+    <path
+      d="M15 13l4 -4l-4 -4m4 4h-11a4 4 0 0 0 0 8h1"
+    />
+  </svg>
+  <p
+    className="countryName"
+  />
+  <p
+    className="countryCode"
+  />
+</li>
+`;
