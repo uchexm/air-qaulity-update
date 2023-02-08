@@ -20,9 +20,8 @@ html {
 }
 
 body {
-  background: linear-gradient(135deg, var(--primary), var(--secondary)),
-    url("https://i.postimg.cc/3xSPHB2V/Corona-Virus-Header.jpg") no-repeat
-      center center / cover;
+  background: url("https://i.postimg.cc/dQC8FSMq/air1.png") no-repeat center
+    center / cover;
   background-attachment: fixed;
   height: 100vh;
 }
@@ -33,7 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #c43361;
+  background-color: goldenrod;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -84,10 +83,11 @@ input:focus {
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  border: 2px solid #fff;
+  border: 2px solid #ecb9b9;
   align-items: center;
   margin: 1rem;
   cursor: pointer;
+  border-radius: 1rem;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   width: 18.75rem;
   height: 25rem;
@@ -118,7 +118,7 @@ input:focus {
 }
 
 .forward {
-  color: hsl(348, 93%, 56%);
+  color: hsl(348, 38%, 16%);
   font-size: 4rem;
   background-color: #fff;
   border-radius: 50%;

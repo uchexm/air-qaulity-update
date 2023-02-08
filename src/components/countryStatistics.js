@@ -28,7 +28,7 @@ const Statistics = () => {
       <div className="returnContainer">
         <MdOutlineArrowBackIos className="statIcon" onClick={handleClick} />
       </div>
-      <h1>COVID-19 STATISTICS</h1>
+      <h1>AIR QAULITY STATISTICS</h1>
       <div className="groupedUpdate">
         {countryDetails && (
           <div className="update">
@@ -42,15 +42,15 @@ const Statistics = () => {
             <section className="statDetails">
               <article className="new">
                 <p className="statTitle">
-                  Highs:&nbsp;
+                  Wildfire:&nbsp;
                   <span className="statValue">{NewConfirmed}</span>
                 </p>
                 <p className="statTitle">
-                  Lows:&nbsp;
+                  Fog:&nbsp;
                   <span className="statValue">{NewRecovered}</span>
                 </p>
                 <p className="statTitle">
-                  Wildfire:&nbsp;
+                  Storm:&nbsp;
                   <span className="statValue">{NewDeaths}</span>
                 </p>
               </article>
@@ -64,7 +64,7 @@ const Statistics = () => {
                   <span className="statValue">{TotalDeaths}</span>
                 </p>
                 <p className="statTitle">
-                  Position:&nbsp;
+                  Hurricanes:&nbsp;
                   <span className="statValue">{TotalRecovered}</span>
                 </p>
               </article>
