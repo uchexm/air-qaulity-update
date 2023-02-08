@@ -43,7 +43,7 @@ After you're finished please remove all the comments and instructions!
     - [Usage](#usage)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
-  - [👥 Authors ](#-authors-)
+  - [👥 Author ](#-author-)
   - [🔭 Future Features ](#-future-features-)
   - [🤝 Contributing ](#-contributing-)
   - [⭐️ Show your support ](#️-show-your-support-)
@@ -160,13 +160,13 @@ npm start
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors"></a>
+## 👥 Author <a name="authors"></a>
 
-👤 **Mohamed Hassan Noor**
+👤 **Uchechi Nwaka**
 
 - GitHub: [@uchexm](https://github.com/uchexm)
 - Twitter: [@nwakauc](https://twitter.com/nwakauc)
-- LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/nwakauc/)
+- LinkedIn: [@Uchechi Nwaka](https://www.linkedin.com/in/nwakauc/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
