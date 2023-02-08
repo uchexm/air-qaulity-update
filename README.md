@@ -86,7 +86,7 @@ The home page displays a list of countries that could be filtered by country nam
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://clinquant-faun-d0d0e9.netlify.app/)
-- [Loom](https://www.loom.com/share/18c6a72e65074e6196901c079345fddc)
+- [Loom](https://www.loom.com/share/bbb65bcd9b654f9792e50d71ab5c3c2d)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
