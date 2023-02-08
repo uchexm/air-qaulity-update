@@ -20,7 +20,8 @@ html {
 }
 
 body {
-  background: url("https://i.postimg.cc/MK4XHxVg/R-1.jpg") no-repeat center
+  background:
+    url("https://i.postimg.cc/MK4XHxVg/R-1.jpg") no-repeat center
     center / cover;
   background-attachment: fixed;
   height: 100vh;
@@ -147,6 +148,7 @@ p.countryName {
   from {
     left: 0;
   }
+
   to {
     left: -5px;
   }
