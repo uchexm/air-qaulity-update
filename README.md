@@ -85,8 +85,8 @@ The home page displays a list of countries that could be filtered by country nam
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://metric-webapp.onrender.com/)
-- [Loom](https://www.loom.com/share/e8cdb642ce804ea7b7c535f7bbc55024)
+- [Live Demo Link](https://clinquant-faun-d0d0e9.netlify.app/)
+- [Loom](https://www.loom.com/share/18c6a72e65074e6196901c079345fddc)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +111,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd your-folder
-  git clone https://github.com/MohamedHNoor/metrics-webapp.git
+  git clone https://github.com/uchexm/air-qaulity-update
 ```
 
 -
@@ -121,7 +121,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd metrics-webapp
+  cd air-qaulity-update
   npm install
 ```
 
@@ -164,9 +164,9 @@ npm start
 
 👤 **Mohamed Hassan Noor**
 
-- GitHub: [@MohamedHNoor](https://github.com/MohamedHNoor)
-- Twitter: [@MohamedHNoor](https://twitter.com/MohamedHNoor)
-- LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/mohamedhnoor/)
+- GitHub: [@uchexm](https://github.com/uchexm)
+- Twitter: [@nwakauc](https://twitter.com/nwakauc)
+- LinkedIn: [@MohamedHNoor](https://www.linkedin.com/in/nwakauc/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -174,9 +174,9 @@ npm start
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Home page that will display lits]**
-- [ ] **[Details page for detailed item]**
-- [ ] **[Back button to navigate to the home page]**
+- [ ] **Home page that will display list of countries and capital**
+- [ ] **Details page for more detailed item**
+- [ ] **Capital city page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,7 +186,7 @@ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](<[../../issues/](https://github.com/MohamedHNoor/metrics-webapp/issues)>).
+Feel free to check the [issues page](<[../../issues/](https://github.com/uchexm/air-qaulity-update/issues)>).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
