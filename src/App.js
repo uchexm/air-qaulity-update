@@ -1,8 +1,8 @@
-import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Countries from "./components/countries";
-import logo from "./assets/logo.png";
-import Statistics from "./components/countryStatistics";
+import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Countries from './components/countries';
+import logo from './assets/logo.png';
+import Statistics from './components/countryStatistics';
 
 const App = () => (
   <div className="App">

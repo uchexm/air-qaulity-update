@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { useNavigate } from "react-router-dom";
-import { TbArrowForwardUp } from "react-icons/tb";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useNavigate } from 'react-router-dom';
+import { TbArrowForwardUp } from 'react-icons/tb';
 
 const Country = ({ id, country, countryCode }) => {
   const navigate = useNavigate();

@@ -1,7 +1,7 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
-import axios from "axios";
+import { createAsyncThunk } from '@reduxjs/toolkit';
+import axios from 'axios';
 
-const FETCH_DATA = "countriespollutionstatus/countries/FETCH_DATA";
+const FETCH_DATA = 'countriespollutionstatus/countries/FETCH_DATA';
 
 const initialState = [];
 
@@ -18,7 +18,7 @@ const countriesReducer = (state = initialState, action) => {
 
 export const fetchData = createAsyncThunk(FETCH_DATA, async () => {
   try {
-    const { data } = await axios.get("https://api.covid19api.com/summary");
+    const { data } = await axios.get('https://api.covid19api.com/summary');
     return data.Countries;
   } catch (error) {
     return error;

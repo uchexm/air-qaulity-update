@@ -1,7 +1,7 @@
-import React from "react";
-import { useSelector } from "react-redux";
-import { useNavigate, useParams } from "react-router-dom";
-import { MdOutlineArrowBackIos } from "react-icons/md";
+import React from 'react';
+import { useSelector } from 'react-redux';
+import { useNavigate, useParams } from 'react-router-dom';
+import { MdOutlineArrowBackIos } from 'react-icons/md';
 
 const Statistics = () => {
   const navigate = useNavigate();
@@ -20,7 +20,7 @@ const Statistics = () => {
   } = countryDetails[0];
 
   const handleClick = () => {
-    navigate("/", { replace: true });
+    navigate('/', { replace: true });
   };
 
   return (
