@@ -30,29 +30,25 @@ const Countries = () => {
         </div>
       </div>
       <ul className="countriesList">
-        {
-          // eslint-disable-next-line consistent-return
-          countries
-            .filter((element) => {
-              if (search === '') {
-                return element;
-              }
-              if (
-                element.Country.toLowerCase().includes(search.toLowerCase())
-              ) {
-                return element;
-              }
-            })
-            .map((country) => (
-              <Country
-                key={country.ID}
-                id={country.ID}
-                details={country}
-                country={country.Country}
-                countryCode={country.CountryCode}
-              />
-            ))
-        }
+        {countries
+          .filter((element) => {
+            if (search === '') {
+              return element;
+            }
+            if (element.Country.toLowerCase().includes(search.toLowerCase())) {
+              return element;
+            }
+            return null;
+          })
+          .map((country) => (
+            <Country
+              key={country.ID}
+              id={country.ID}
+              details={country}
+              country={country.Country}
+              countryCode={country.CountryCode}
+            />
+          ))}
       </ul>
     </div>
   );
